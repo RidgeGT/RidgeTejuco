@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ec6fe8ce67.js" crossorigin="anonymous"></script>
+    <script src = "nav.js" defer></script>
+    <title>Ridge Tejuco</title>
+</head>
+
+<body>
+    <div class = "main-div">
+        <div class = "row nav-section container fixed-top">
+            <div class = "col" > 
+                <nav class = "navbar navbar-expand-md navbar-light">
+                        <a class = "navbar-brand" href = "index.html">Ridge Tejuco</a>
+                        <button class = "navbar-toggler" 
+                        type = "button" 
+                        data-bs-toggle = "collapse"
+                        data-bs-target="#navbarScroll"
+                        aria-controls = "navbarScroll"
+                        aria-expanded="false"
+                        aria-label = "Toggle navigation"
+                        >
+                            <span class = "navbar-toggler-icon"></span>
+                        </button>
+                        <div class = "collapse navbar-collapse" id = "navbarScroll">
+                            <ul style = "width: 100%;" class = "navbar-nav"> 
+                                <li class = "nav-item"><a href = "portfolio.html" class = "nav-link">Portfolio</a></li>
+                                <li class = "nav-item me-auto"><a href = "labWork.html" class = "nav-link">Lab Work</a></li>
+                                
+                                <li class = "nav-item">
+                                    <a id = "emailPopover" class="nav-link"
+                                    tabindex="0"
+                                    data-bs-container="body" 
+                                    data-bs-toggle="popover" 
+                                    data-bs-placement="right"
+                                    data-bs-trigger="hover focus"
+                                    data-bs-content="RidgeGT898@gmail.com"
+                                    onclick = "navigator.clipboard.writeText('RidgeGT898@gmail.com');">
+                                            <i class="fas fa-envelope"></i>
+                                    </a>
+                                </li>
+
+                                <li class = "nav-item">
+                                    <a id = "phonePopover" class="nav-link"
+                                    tabindex="0"
+                                    data-bs-container="body" 
+                                    data-bs-toggle="popover" 
+                                    data-bs-placement="right"
+                                    data-bs-trigger="hover focus"
+                                    data-bs-content="1 (818) 641-7656"
+                                    onclick = "navigator.clipboard.writeText('1 (818) 641-7656')">
+                                        <i class="fas fa-phone"></i>
+                                    </a>
+                                </li>
+
+                                <li class = "nav-item"><a href = "https://twitter.com/RidgeRGT"   target = "_blank" class = "nav-link"><i class="fab fa-twitter"></i></a></li>
+                                <li class = "nav-item"><a href = "https://www.linkedin.com/in/ridgetejuco/"  target = "_blank" class = "nav-link"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li class = "nav-item"><a href = "https://github.com/RidgeGT" target = "_blank" class = "nav-link"><i class="fab fa-github"></i></a></li>
+                            </ul>
+                        </div> 
+                </nav>
+            </div> 
+        </div>
+
+        <div id = "preview-section" class="row carousel slide bg-dark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class = "carousel-item active"></div>
+                <div class = "carousel-item"></div>
+                <div class = "carousel-item"></div>
+                <div class = "carousel-item"></div>
+                <div class = "carousel-item"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#preview-section" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#preview-section" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+        <div id = "aboutme1" class = "row aboutMe-section" >
+            <div class = "abTxt col">
+                <img alt = "Ridge Tejuco 2020" class = "abImg" src = "Picture/ridge-2.jpg">
+                <h2>About Me</h2>
+                <p>I'm Ridge. I'm a junior software developer currently looking for back-end development roles.</p>
+                <p> 
+                    
+                    I am most interested in back-end functionality, managing and integrating databases, Computer Networking, and data analysis.
+                    I studied Computer Engineering at CSUN, where I also designed, prototyped, and tested electronics using Pspice, OrCad, and breadboarding. 
+                    I am proficient with VHDL, Verilog, and SystemVerilog for design of digital systems and FPGA circuits. I love everything about computers both software and hardware.
+                </p>
+            </div>
+        </div>
+
+        <div id = "aboutme2" class = "row aboutMe-section" >
+            <div class = "abTxt col">
+                <p> I was born in Los Angeles and raised in Granada Hills, CA. Growing up I've always had a deep fascination with electronics, computers, 
+                    calculators and how their internals worked. In middle school I programmed small animations and webpages. I loved playing video games and wanted to make my own. 
+                    In highschool, I wondered how mice could detect motion with their sensors and send that signal to the PC to produce motion on the monitor. I was interested in how calculators peform basic operations such as addition,
+                    and multiplication, how it could understand numbers and store information. I wondered how the software that I used all the time such as Word and Excel were developed. I was frustrated that I was growing up in a world where I use technology every day, but did not know how it was made,
+                    or how it worked inside. I wanted to be able to design and build my own projects. I wanted to understand modern computers from top to bottom.
+                </p>
+            </div>
+        </div>
+
+        <div id = "aboutme3" class = "row aboutMe-section" >
+            <div class = "abTxt col">
+                <h2>Education</h2>
+                <table style="text-align: left; width: 100%; ">
+                    <tr  style = "width: 100%;">
+                        <td class = "leftSideTable">BS Computer Engineering</td>
+                        <td class = "rightSideTable">California State University Northridge</td>
+                    </tr>
+                    <tr  style = "width: 100%;">
+                        <td class = "leftSideTable">GPA: 3.3/4.0</td>
+                        <td class = "rightSideTable">Graduated May 2020</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/ec6fe8ce67.js" crossorigin="anonymous"></script>
+        <script src = "nav.js" defer></script>
+        <title>RTejuco - Lab Work</title>
+    </head>
+<body>
+    <div class = "main-div">
+        <div class = "row nav-section container fixed-top">
+            <div class = "col" > 
+                <nav class = "navbar navbar-expand-md navbar-light">
+                    <a class = "navbar-brand" href = "index.html">Ridge Tejuco</a>
+                    <button class = "navbar-toggler" 
+                    type = "button" 
+                    data-bs-toggle = "collapse"
+                    data-bs-target="#navbarScroll"
+                    aria-controls = "navbarScroll"
+                    aria-expanded="false"
+                    aria-label = "Toggle navigation"
+                    >
+                        <span class = "navbar-toggler-icon"></span>
+                    </button>
+                    <div class = "collapse navbar-collapse" id = "navbarScroll">
+                        <ul style = "width: 100%;" class = "navbar-nav"> 
+                            <li class = "nav-item"><a href = "portfolio.html" class = "nav-link">Portfolio</a></li>
+                            <li class = "nav-item me-auto"><a href = "labWork.html" class = "nav-link">Lab Work</a></li>
+                            
+                            <li class = "nav-item">
+                                <a id = "emailPopover" class="nav-link"
+                                tabindex="0"
+                                data-bs-container="body" 
+                                data-bs-toggle="popover" 
+                                data-bs-placement="bottom"
+                                data-bs-trigger="hover focus"
+                                data-bs-content="RidgeGT898@gmail.com"
+                                onclick = "navigator.clipboard.writeText('RidgeGT898@gmail.com');">
+                                        <i class="fas fa-envelope"></i>
+                                </a>
+                            </li>
+
+                            <li class = "nav-item">
+                                <a id = "phonePopover" class="nav-link"
+                                tabindex="0"
+                                data-bs-container="body" 
+                                data-bs-toggle="popover" 
+                                data-bs-placement="bottom"
+                                data-bs-trigger="hover focus"
+                                data-bs-content="1 (818) 641-7656"
+                                onclick = "navigator.clipboard.writeText('1 (818) 641-7656')">
+                                    <i class="fas fa-phone"></i>
+                                </a>
+                            </li>
+
+                            <li class = "nav-item"><a href = "https://twitter.com/RidgeRGT"   target = "_blank" class = "nav-link"><i class="fab fa-twitter"></i></a></li>
+                            <li class = "nav-item"><a href = "https://www.linkedin.com/in/ridgetejuco/"  target = "_blank" class = "nav-link"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class = "nav-item"><a href = "https://github.com/RidgeGT" target = "_blank" class = "nav-link"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div> 
+            </nav>
+            </div> 
+        </div>
+        
+        <div id = "downloads-section">
+            <div class="row">
+                <div  class = "col">
+                    <button class="btn btn-secondary collapse-button" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target = "#Verilog" 
+                    aria-expanded="false"
+                    aria-label = "Toggle Verilog downloads">
+                    Verilog
+                    </button>
+                    <ul id = "Verilog" class = "collapse" aria-labelledby="VerilogMenu">
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_SynopsysVCS.pdf">Synopsys VCS</a></li>
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_StructuralModelingOfJKFF.pdf">Structural Modeling</a></li>
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_HeirarchicalModeling.pdf">Heirarchichal Modeling and Critical Path</a></li>
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_BehavioralModelingOfCounter.pdf">Behavioral Counter Design</a></li>
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_ScalableMultiplexer.pdf">Parametrized Multiplexer</a></li>
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_SumOfProducts.pdf">Sum of Products circuit design</a></li>
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_RegisterFile.pdf">Register File Design</a></li>
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_ArithmeticLogicUnit_Modeling.pdf">ALU design</a></li>
+                        <li><a class="download-item" href="LabWork/Verilog/Verilog_ModelingASequenceController.pdf">Sequence Controller Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div  class = "col">
+                    <button class="btn btn-secondary collapse-button" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target = "#ARM_Assembly" 
+                    aria-expanded="false"
+                    aria-label = "Toggle ARM downloads">
+                        ARM
+                    </button>
+                    <ul id = "ARM_Assembly" class = "collapse" aria-labelledby="ARM_Menu">
+                        <li><a class="download-item" href="LabWork/ARM/ARM_GPIO_Control.pdf">GPIO Control</a></li>
+                        <li><a class="download-item" href="LabWork/ARM/ARM_IO_WITH_LOGIC.pdf">Logical Operations</a></li>
+                        <li><a class="download-item" href="LabWork/ARM/ARM_Subroutines.pdf">Subroutines</a></li>
+                        <li><a class="download-item" href="LabWork/ARM/ARM_Interrupts.pdf">Interrupts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div  class = "col">
+                    <button class="btn btn-secondary collapse-button" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target = "#VHDL" 
+                    aria-expanded="false"
+                    aria-label = "Toggle VHDL downloads">
+                        VHDL
+                    </button>
+                    <ul id = "VHDL" class = "collapse" aria-labelledby="VHDL_Menu">
+                        <li><a class="download-item" href="LabWork/VHDL/VHDL_Vivado.pdf">Vivado</a></li>
+                        <li><a class="download-item" href="LabWork/VHDL/FPGA Features,Clock Management,DSP Blocks,DDR,andSRL.pdf">FPGA Resources</a></li>
+                        <li><a class="download-item" href="LabWork/VHDL/Averager Circuit.pdf">Averaging Circuit Design</a></li>
+                        <li><a class="download-item" href="LabWork/VHDL/The Data path and Control path.pdf">Data and Control paths</a></li>
+                        <li><a class="download-item" href="LabWork/VHDL/VHDL_Blockmem.pdf">Block memory</a></li>
+                        <li><a class="download-item" href="LabWork/VHDL/VHDL_RoundRobin.pdf">Round Robin Arbiter</a></li>
+                        <li><a class="download-item" href="LabWork/VHDL/VHDL_SerialAdder.pdf">SISO Adder</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div  class = "col">
+                    <button class="btn btn-secondary collapse-button" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target = "#Digital" 
+                    aria-expanded="false"
+                    aria-label = "Toggle Digital Design Lab downloads">
+                        Digital Design
+                    </button>
+                    <ul id = "Digital" class = "collapse" aria-labelledby="DigitalLabMenu">
+                        <li><a class="download-item" href="LabWork/Digital Design/Number Systems.pdf">Number Systems</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design/adders_comparators.pdf">Adder and Magnitude Comparator</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design/Boolean Laws and DeMorgan's Theorems.pdf">Boolean Laws and DeMorgan's Theorems</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design/CMOS_DLatch.pdf">CMOS D Latch Design</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design/CMOS_RING_Oscillation_Part1.pdf">Ring Oscillation</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design/CMOS_RING_Oscillation_Part2.pdf">Ring Oscillation 2</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design/Combinational Logic using DeMultiplexers.pdf">Combinational Logic with Demultiplexers</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design/NOR_ROM_ARRAY.pdf">4x4 NOR ROM Array Design</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design//TransmissionGate.pdf">Transmission Gate Design</a></li>
+                        <li><a class="download-item" href="LabWork/Digital Design/Voltage Control Oscillator.pdf">Voltage Control Oscillator</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div  class = "col">
+                    <button class="btn btn-secondary collapse-button" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target = "#Fundementals" 
+                    aria-expanded="false"
+                    aria-label = "Toggle Fundementals downloads">
+                        Electromagnetism Fundementals
+                    </button>
+                    <ul id = "Fundementals" class = "collapse" aria-labelledby="FundmentalMenu">
+                        <li><a class="download-item" href="LabWork/Electromagnetism/2nd Order Systems.pdf">2nd Order Systems</a></li>
+                        <li><a class="download-item" href="LabWork/Electromagnetism/LabInstruments.pdf">Lab Instruments</a></li>
+                        <li><a class="download-item" href="LabWork/Electromagnetism/Network Theorems.pdf">Boolean Laws and DeMorgan's Theorems</a></li>
+                        <li><a class="download-item" href="LabWork/Electromagnetism/Operational Amplifiers.pdf">CMOS D Latch Design</a></li>
+                        <li><a class="download-item" href="LabWork/Electromagnetism/WheatStone+VoltageDivider.pdf">Voltage Dividers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div  class = "col">
+                    <button class="btn btn-secondary collapse-button" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target = "#Wave" 
+                    aria-expanded="false"
+                    aria-label = "Toggle Fundementals downloads">
+                        Waveshaping
+                    </button>
+                    <ul id = "Wave" class = "collapse" aria-labelledby="WavePulseMenu">
+                        <li><a class="download-item" href="LabWork/Waveshaping/AstableMultivibrators.pdf">Astable Multivibrators</a></li>
+                        <li><a class="download-item" href="LabWork/Waveshaping/CMOS_Characterization.pdf">CMOS Characterization</a></li>
+                        <li><a class="download-item" href="LabWork/Waveshaping/DigitalToAnalogConverter.pdf">DAC Design</a></li>
+                        <li><a class="download-item" href="LabWork/Waveshaping/InvertingComparators.pdf">Inverting Comparators</a></li>
+                        <li><a class="download-item" href="LabWork/Waveshaping/MonostableMultivibrators.pdf">Monostable Multivibrators</a></li>
+                        <li><a class="download-item" href="LabWork/Waveshaping/MosfetPowerAmplifiers.pdf">Mosfet Power Amplifiers</a></li>
+                        <li><a class="download-item" href="LabWork/Waveshaping/SampleHoldCircuits.pdf">Sample and Hold</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
